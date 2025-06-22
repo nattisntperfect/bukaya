@@ -62,7 +62,7 @@ function createPhotoMonitor() {
     // Layar dengan foto
     const screenGeometry = new THREE.PlaneGeometry(8, 4.5); // Rasio 16:9
     const screenMaterial = new THREE.MeshStandardMaterial({
-        map: textureLoader.load('foto-jihan.jpg'),
+        map: textureLoader.load('hhhh.jpeg'),
         side: THREE.DoubleSide,
     });
     const screen = new THREE.Mesh(screenGeometry, screenMaterial);
